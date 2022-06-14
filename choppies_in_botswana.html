@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Choppies in Botswana &#8212; My sample book</title>
+    <title>Choppies in Botswana &#8212; My DS Projects</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -94,10 +94,10 @@ const thebe_selector_output = ".output, .cell_output"
         
       
       
-      <img src="_static/logo.png" class="logo" alt="logo">
+      <img src="_static/kitty.jpg" class="logo" alt="logo">
       
       
-      <h1 class="site-logo" id="site-title">My sample book</h1>
+      <h1 class="site-logo" id="site-title">My DS Projects</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -109,7 +109,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="intro.html">
-                    Welcome to your Jupyter Book
+                    Welcome to My DS Projects
                 </a>
             </li>
         </ul>
@@ -513,16 +513,6 @@ title="Print to PDF"
 <span class="nf">library</span><span class="p">(</span><span class="n">gifski</span><span class="p">)</span>
 </pre></div>
 </div>
-<div class="highlight-R notranslate"><div class="highlight"><pre><span></span><span class="nf">set.seed</span><span class="p">(</span><span class="m">3</span><span class="p">)</span>
-<span class="n">map_with_data</span> <span class="o">&lt;-</span> <span class="nf">ggplot</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">BW_states</span><span class="p">)</span> <span class="o">+</span> <span class="nf">geom_sf</span><span class="p">()</span> <span class="o">+</span>
-<span class="nf">geom_jitter</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">choppies_map</span><span class="p">,</span> 
-           <span class="n">mapping</span><span class="o">=</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">longitude</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">latitude</span><span class="p">,</span> 
-               <span class="n">colour</span> <span class="o">=</span> <span class="n">District</span><span class="p">,</span> <span class="n">alpha</span> <span class="o">=</span> <span class="m">0.5</span><span class="p">,</span> <span class="n">group</span> <span class="o">=</span> <span class="n">year</span><span class="p">),</span> 
-            <span class="n">width</span> <span class="o">=</span> <span class="m">0.1</span><span class="p">,</span> <span class="n">height</span> <span class="o">=</span> <span class="m">0.15</span><span class="p">)</span> <span class="o">+</span>
-<span class="nf">scale_color_viridis_d</span><span class="p">()</span>
-</pre></div>
-</div>
-<p><img alt="png" src="_images/choppies_map.png" /></p>
 <div class="highlight-R notranslate"><div class="highlight"><pre><span></span><span class="n">num_years</span> <span class="o">&lt;-</span> <span class="nf">max</span><span class="p">(</span><span class="n">choppies_map</span><span class="o">$</span><span class="n">year</span><span class="p">)</span> <span class="o">-</span> <span class="nf">min</span><span class="p">(</span><span class="n">choppies_map</span><span class="o">$</span><span class="n">year</span><span class="p">)</span> <span class="o">+</span> <span class="m">1</span>
 
 <span class="n">map_with_animation</span> <span class="o">&lt;-</span> <span class="n">map_with_data</span> <span class="o">+</span>
@@ -537,7 +527,7 @@ title="Print to PDF"
 <span class="nf">anim_save</span><span class="p">(</span><span class="s">&#39;choppies_growth.gif&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p><img alt="png" src="choppies_growth.png" /></p>
+<p><img alt="png" src="_images/choppies_growth.gif" /></p>
 </section>
 </section>
 
@@ -589,7 +579,7 @@ title="Print to PDF"
     <div class="footer-content row">
         <footer class="col footer"><p>
   
-    By The Jupyter Book Community<br/>
+    By Pearl Molefe<br/>
   
       &copy; Copyright 2022.<br/>
 </p>

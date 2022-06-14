@@ -76,19 +76,7 @@ summary(choppies)
 ```R
 library(dplyr)
 library(tidyverse)
-```
-
-    -- [1mAttaching packages[22m --------------------------------------- tidyverse 1.3.1 --
-    
-    [32mv[39m [34mggplot2[39m 3.3.6     [32mv[39m [34mpurrr  [39m 0.3.4
-    [32mv[39m [34mtibble [39m 3.1.7     [32mv[39m [34mstringr[39m 1.4.0
-    [32mv[39m [34mtidyr  [39m 1.2.0     [32mv[39m [34mforcats[39m 0.5.1
-    [32mv[39m [34mreadr  [39m 2.1.2     
-    
-    -- [1mConflicts[22m ------------------------------------------ tidyverse_conflicts() --
-    [31mx[39m [34mdplyr[39m::[32mfilter()[39m masks [34mstats[39m::filter()
-    [31mx[39m [34mdplyr[39m::[32mlag()[39m    masks [34mstats[39m::lag()
-    
+```    
     
 
 South-East region contains the highest number of stores followed by Kweneng and Central districts. Combined, the the three districts contain 71% of the total stores in the country. 
@@ -133,10 +121,7 @@ select(district) %>%
 pull()
 
 top_3
-```
-
-    [1m[22mSelecting by percent
-    
+```    
 
 
 <style>
@@ -189,10 +174,7 @@ arrange(desc(n)) %>%
 top_n(10) 
 
 top_towns_n
-```
-
-    [1m[22mSelecting by n
-    
+```    
 
 
 <table class="dataframe">
@@ -315,11 +297,6 @@ arrange(desc(n)) %>%
 head()
 
 ```
-
-    [1m[22m`summarise()` has grouped output by 'year'. You can override using the
-    `.groups` argument.
-    
-
 
 <table class="dataframe">
 <caption>A grouped_df: 6 × 3</caption>

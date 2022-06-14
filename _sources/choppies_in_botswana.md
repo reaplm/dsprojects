@@ -187,20 +187,6 @@ library(gganimate)
 library(gifski)
 ```
 
-
-```R
-set.seed(3)
-map_with_data <- ggplot(data = BW_states) + geom_sf() +
-geom_jitter(data = choppies_map, 
-           mapping=aes(x = longitude, y = latitude, 
-               colour = District, alpha = 0.5, group = year), 
-            width = 0.1, height = 0.15) +
-scale_color_viridis_d()
-
-```
-
-![png](choppies_map.png)
-
 ```R
 num_years <- max(choppies_map$year) - min(choppies_map$year) + 1
 
@@ -216,4 +202,4 @@ animate(map_with_animation, nframes = num_years, fps = 1)
 anim_save('choppies_growth.gif')
 ```
 
-![png](choppies_growth.png)
+![png](choppies_growth.gif)
