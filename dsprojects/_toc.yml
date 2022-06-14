@@ -1,0 +1,10 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: Choppies
+- file: choppies_in_botswana
+- file: choppies_competition
+- file: internet_subscriptions

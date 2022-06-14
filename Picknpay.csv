@@ -1,0 +1,13 @@
+Name,District,Town,Address,latitude,longitude,Date,Cancelled,Registered,Store
+Pick N Pay Botswana,South-East,Gaborone,"Plot 1277, Clover House, Old Lobatse Road",,,07/09/2009,,Y,picknpay
+Pick N Pay Family Supermarket Dairy,South-East,Gaborone,"Shop 1 Dairy Site, Southring Mall Extension 12, Gaborone",-24.66624798,25.92072299,16/11/2010,,Y,picknpay
+Pick N Pay Family Supermarket Francistown 1,North-East,Francistown,"Cnr guy and, St Patrick St, Francistown",-21.17073405,27.51423876,12/03/2004,03/12/2020,N,picknpay
+Pick N Pay Family Supermarket Francistown 2,North-East,Francistown,"Plot 839-840/841-846, Blue Jacket Street, Francistown",-21.16810597,27.51154014,19/10/2010,,Y,picknpay
+Pick N Pay Jwaneng,Central,Jwaneng,"Plot 5415, Jwaneng Mall, Teemane Avenue, Jwaneng",-24.5999383,24.72871201,20/05/2011,,Y,picknpay
+Pick N Pay Lobatse,South-East,Lobatse,"Plot 1277, Old Lobatse Road, Gaborone",-25.22504788,25.67000586,25/11/2020,,Y,picknpay
+Pick N Pay Sebele,South-East,Sebele,"Sebele Mall, A1",-24.60412502,25.9313948,25-Nov-20,,Y,picknpay
+Pick N Pay Selibe-Phikwe,Central,Phikwe,"Plot 6568, Tshekedi Road, Selibe Phikwe",-21.97529669,27.84477944,15/09/2010,,Y,picknpay
+Pick N Pay Riverwalk,South-East,Gaborone,"Shop No: 12, Riverwalk Mall, The Village Gaborone",-24.67445149,25.93456628,1/112001,,Y,picknpay
+Pick N Pay Maun,North-West,Maun,,,,,,,picknpay
+Pick N Pay Molapo Crossing,South-East,Gaborone,"54483, Unit 9, Molapo Crossing, Gaborone",-24.64266822,25.88543365,11/03/2003,03/12/2020,N,picknpay
+Pick N Pay Hillside,South-East,Gaborone,Hillside Shopping Center,-24.68095736,25.87679029,,,Y,picknpay
