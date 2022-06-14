@@ -82,7 +82,7 @@ scale_color_viridis(discrete = TRUE)
 ggplotly(g)
 ```
 
-![png](i_sub_1)
+![png](i_sub_1.png)
 
 
 
@@ -99,7 +99,7 @@ scale_color_viridis(discrete = TRUE)
 ggplotly(g)
 ```
 
-![png](i_sub_2)
+![png](i_sub_2.png)
 
 
 
@@ -127,4 +127,4 @@ theme(plot.title = element_text(hjust = 0.5))
 ggplotly(g)
 ```
 
-![png](i_sub_3)
+![png](i_sub_3.png)
