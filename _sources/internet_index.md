@@ -1,6 +1,5 @@
 # Internet Subscriptions
 
 
-```{contents}
-:local:
+```{tableofcontents}
 ```
