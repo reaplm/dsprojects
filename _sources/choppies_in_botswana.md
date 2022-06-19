@@ -1,6 +1,6 @@
-# Choppies in Botswana
+## Choppies in Botswana
 
-## Data Summary
+### Data Summary
 
 
 ```R
@@ -65,7 +65,7 @@ summary(choppies)
                                            NA's   :10    
 
 
-## Choppies Map
+### Choppies Map
 
 
 ```R
@@ -177,9 +177,8 @@ scale_color_viridis_d()
 
 
 
-```R
-## Choppies Animated
-```
+### Choppies Animated
+
 
 
 ```R

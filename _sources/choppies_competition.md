@@ -1,6 +1,6 @@
-# Choppies Competition
+## Choppies Competition
 
-## Choppies, Spar and Pick 'n Pay
+### Choppies, Spar and Pick 'n Pay
 
 
 ```R
@@ -104,7 +104,7 @@ summary(merged_stores)
                                            NA's   :14    
 
 
-## Choppies Market Share
+### Choppies Market Share
 
 
 ```R

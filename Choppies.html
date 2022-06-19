@@ -119,15 +119,49 @@ const thebe_selector_output = ".output, .cell_output"
  </span>
 </p>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1">
+ <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="choppies_index.html">
    Choppies
   </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Choppies Stores
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="choppies_in_botswana.html">
+     Choppies in Botswana
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="choppies_competition.html">
+     Choppies Competition
+    </a>
+   </li>
+  </ul>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="internet_index.html">
-   Internet Subscriptions
+   ICT Statistics
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="internet_subscriptions.html">
+     Internet Subscriptions
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -315,13 +349,11 @@ title="Print to PDF"
   <a class="reference internal nav-link" href="#number-of-stores-and-locations">
    Number of Stores and Locations
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#choppies-by-year">
-     Choppies By Year
-    </a>
-   </li>
-  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#choppies-by-year">
+   Choppies By Year
+  </a>
  </li>
 </ul>
 
@@ -351,13 +383,11 @@ title="Print to PDF"
   <a class="reference internal nav-link" href="#number-of-stores-and-locations">
    Number of Stores and Locations
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#choppies-by-year">
-     Choppies By Year
-    </a>
-   </li>
-  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#choppies-by-year">
+   Choppies By Year
+  </a>
  </li>
 </ul>
 
@@ -369,7 +399,7 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="choppies-stores">
+  <section id="choppies-stores">
 <h1>Choppies Stores<a class="headerlink" href="#choppies-stores" title="Permalink to this headline">#</a></h1>
 <section id="summary">
 <h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">#</a></h2>
@@ -536,8 +566,9 @@ title="Print to PDF"
 .list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
 </style>
 <ol class=list-inline><li>'Gaborone'</li><li>'Mogoditshane'</li><li>'Francistown'</li><li>'Lobatse'</li><li>'Mahalapye'</li><li>'Maun'</li><li>'Molepolole'</li><li>'Palapye'</li><li>'Ramotswa'</li><li>'Tlokweng'</li></ol>
+</section>
 <section id="choppies-by-year">
-<h3>Choppies By Year<a class="headerlink" href="#choppies-by-year" title="Permalink to this headline">#</a></h3>
+<h2>Choppies By Year<a class="headerlink" href="#choppies-by-year" title="Permalink to this headline">#</a></h2>
 <p>Choppies saw the largest growth between 2005 and 2013. Between these years, South-East, Kweneng and Central saw the high number of stores.</p>
 <div class="highlight-R notranslate"><div class="highlight"><pre><span></span><span class="n">choppies</span><span class="o">$</span><span class="n">month</span> <span class="o">&lt;-</span> <span class="nf">months</span><span class="p">(</span><span class="n">choppies</span><span class="o">$</span><span class="n">date</span><span class="p">)</span>
 <span class="n">choppies</span><span class="o">$</span><span class="n">year</span> <span class="o">&lt;-</span> <span class="nf">as.numeric</span><span class="p">(</span><span class="nf">format</span><span class="p">(</span><span class="n">choppies</span><span class="o">$</span><span class="n">date</span><span class="p">,</span> <span class="s">&quot;%Y&quot;</span><span class="p">))</span>
@@ -654,7 +685,6 @@ title="Print to PDF"
 </pre></div>
 </div>
 <p><img alt="png" src="_images/output_13_0.png" /></p>
-</section>
 </section>
 </section>
 

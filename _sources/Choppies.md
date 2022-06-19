@@ -1,6 +1,6 @@
-# Choppies Stores
+## Choppies Stores
 
-## Summary
+### Summary
 
 
 ```R
@@ -70,7 +70,7 @@ summary(choppies)
                                           
 
 
-## Number of Stores and Locations
+### Number of Stores and Locations
 
 
 ```R
