@@ -3,8 +3,14 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: Choppies
-- file: choppies_in_botswana
-- file: choppies_competition
-- file: internet_subscriptions
+parts:
+ - caption: Data Visualization
+   chapters:
+   - file: choppies_index
+     sections:
+     - file: Choppies
+     - file: choppies_in_botswana
+     - file: choppies_competition 
+   - file: internet_index
+     sections:
+     - file: internet_subscriptions
